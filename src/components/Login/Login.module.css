@@ -1,0 +1,24 @@
+.formContainer {
+  flex-direction: column;
+  justify-content: center;
+  background-color: #fff;
+  border: solid 1px black;
+  gap: 16px;
+}
+.wrapper,
+.formContainer {
+  display: flex;
+}
+.wrapper {
+  align-items: center;
+  justify-content: center;
+}
+.loginForm {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.submitButton {
+  background-color: darkgreen;
+  color: white;
+}

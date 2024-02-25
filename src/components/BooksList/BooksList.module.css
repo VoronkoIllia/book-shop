@@ -1,0 +1,13 @@
+:root {
+  --margin-left-and-right: calc(100vw / 12);
+}
+/* .wrapper {
+  margin: 0 var(--margin-left-and-right) 0 var(--margin-left-and-right);
+} */
+.bookList {
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}

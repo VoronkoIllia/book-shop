@@ -4,13 +4,16 @@ import App from "./App";
 import "./index.css";
 import reportWebVitals from "./reportWebVitals";
 import store from "./state-managment/store";
+import { HashRouter } from "react-router-dom";
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
 );
 root.render(
   <Provider store={store}>
-    <App />
+    <HashRouter>
+      <App />
+    </HashRouter>
   </Provider>
 );
 
